@@ -1,5 +1,5 @@
 import time
-from sim.device import Router, Switch
+from device import Router, Switch
 def main():
     r0 = Router("Router0")
     r1 = Router("Router1")
@@ -34,3 +34,4 @@ def main():
         d.stop()
 if __name__ == "__main__":
     main()
+
